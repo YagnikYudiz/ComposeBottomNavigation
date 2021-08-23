@@ -16,9 +16,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ComposeBottomNavigationTheme {
                 Surface(color = MaterialTheme.colors.background) {
-
-
-
+                    NavigationController()
                 }
             }
         }
